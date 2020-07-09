@@ -4,24 +4,22 @@ import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Toolbar from '@material-ui/core/Toolbar';
-//import Typography from '@material-ui/core/Typography';
-//import Container from '@material-ui/core/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import logo from '../logo1.jpg';
-import img4 from '../imagenes/img4.jpg';
-import img7 from '../imagenes/img7.jpg';
-import img5 from '../imagenes/img5.jpg';
-import img6 from '../imagenes/img6.jpg';
-import img8 from '../imagenes/img8.jpg';
-import img9 from '../imagenes/img9.jpg';
-import img10 from '../imagenes/img10.jpg';
+import img11 from '../imagenes/img11.jpg';
+import img12 from '../imagenes/img12.png';
+import img13 from '../imagenes/img13.jpg';
+import img14 from '../imagenes/img14.jpg';
+import img15 from '../imagenes/img15.jpg';
+import img16 from '../imagenes/img16.jpg';
+import img17 from '../imagenes/img17.jpg';
 
 import Boton from '../settings/Btn_Menu';
 import Start from '../settings/Starts';
 import Barra from '../settings/Barra_Nav';
 
-class Lug extends Component {
+class Turistico extends Component {
   render() {
     return (
       <React.Fragment>
@@ -47,7 +45,7 @@ class Lug extends Component {
         </AppBar>
 
         <div class="card" style={{ margin: 10 }}>
-          <img src={img4} class="card-img" alt="logo" height="350"  />
+          <img src={img11} class="card-img" alt="logo" height="350"  />
           <div class="card-img-overlay">
           <div align="center" ><Barra /></div>
           </div>
@@ -55,66 +53,66 @@ class Lug extends Component {
 
           <div class="card-deck " style={{ margin: 6 }}>
             <div class="card " >
-              <img src={img5} class="card-img-top" height="230"/>
+              <img src={img12} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Lima</h5>
+                <h5 class="card-title">Vinicunca</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="/Info_Lima">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Vinicunca">Saber más...</Button>
               </div>
             </div>
             <div class="card">
-              <img src={img6} class="card-img-top" height="230"/>
+              <img src={img13} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Cajamarca</h5>
+                <h5 class="card-title">Huacachina</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="/Info_Cajamarca">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Huacachina">Saber más...</Button>
               </div>
             </div>
             <div class="card">
-              <img src={img7} class="card-img-top" height="230"/>
+              <img src={img14} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Cuzco</h5>
+                <h5 class="card-title">Velo de la Novia</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="/Info_Cuzco">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Velo_Novia">Saber más...</Button>
               </div>
             </div>
           </div>
 
           <div class="card-deck " style={{ margin: 6 }}>
             <div class="card " >
-              <img src={img8} class="card-img-top" height="230"/>
+              <img src={img15} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Puno</h5>
+                <h5 class="card-title">Machu Picchu</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="/Info_Titicaca">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Machu_Picchu">Saber más...</Button>
               </div>
             </div>
             <div class="card">
-              <img src={img9} class="card-img-top" height="230"/>
+              <img src={img16} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Arequipa</h5>
+                <h5 class="card-title">Líneas de Nazca</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="Info_Nazca">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Lineas_Nazca">Saber más...</Button>
               </div>
             </div>
             <div class="card">
-              <img src={img10} class="card-img-top" height="230"/>
+              <img src={img17} class="card-img-top" height="230"/>
               <div class="card-body">
                 <Start />
-                <h5 class="card-title">Ica</h5>
+                <h5 class="card-title">Bosque de Piedra de Huayllay</h5>
               </div>
               <div class="card-footer" align="right">
-                <Button color="textPrimary" variant="outlined" href="/Info_Huacachina">Saber más...</Button>
+                <Button color="textPrimary" variant="outlined" href="/Bosque_Piedra">Saber más...</Button>
               </div>
             </div>
           </div>
@@ -123,4 +121,4 @@ class Lug extends Component {
   }
 }
 
-export default (Lug);
+export default (Turistico);

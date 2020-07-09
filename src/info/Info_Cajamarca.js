@@ -32,8 +32,11 @@ class Cajamarca extends Component {
                             justify="flex-end"
                             alignItems="center"
                         >
+                            <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
+                Lugares Turisticos
+                    </Button>
                             <Button color="textPrimary" variant="outlined" href="/Lugares_Populares" style={{ left: -10 }} >
-                                Lugares + Populares
+                            Departamentos
                     </Button>
                         </Grid>
                         <Boton />

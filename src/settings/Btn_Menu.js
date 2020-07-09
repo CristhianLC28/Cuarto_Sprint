@@ -30,7 +30,7 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Button onClick={handleClose}  href="##"><AccountBoxRoundedIcon /> | Mi Cuenta</Button><br />
+        <Button onClick={handleClose}  href="/User"><AccountBoxRoundedIcon /> | Mi Cuenta</Button><br />
         <Button onClick={handleClose}  href="/"><PowerSettingsNewRoundedIcon /> | Cerrar Sesión</Button>
       </Menu>
     </div>

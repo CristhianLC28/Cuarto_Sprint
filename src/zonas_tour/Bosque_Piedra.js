@@ -7,7 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import logo from '../logo1.jpg';
-import img8 from '../imagenes/img8.jpg';
+import img18 from '../imagenes/img18.jpg';
 import us1 from '../imagenes/user1.jpg';
 import us2 from '../imagenes/user2.jpg';
 import us3 from '../imagenes/user3.jpg';
@@ -18,7 +18,7 @@ import "../comentarios_es/style.css";
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ReplyIcon from '@material-ui/icons/Reply';
 
-class Cajamarca extends Component {
+class Bosque_Piedra extends Component {
     render() {
         return (
             <React.Fragment>
@@ -33,10 +33,10 @@ class Cajamarca extends Component {
                             alignItems="center"
                         >
                             <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
-                Lugares Turisticos
+                                Lugares Turisticos
                     </Button>
                             <Button color="textPrimary" variant="outlined" href="/Lugares_Populares" style={{ left: -10 }} >
-                            Departamentos
+                                Departamentos
                     </Button>
                         </Grid>
                         <Boton />
@@ -44,7 +44,7 @@ class Cajamarca extends Component {
                 </AppBar>
 
                 <div class="card" style={{ margin: 10 }}>
-                    <img src={img8} class="card-img" alt="logo" height="350" />
+                    <img src={img18} class="card-img" alt="logo" height="350" />
                 </div>
 
                 <div class="table col-sm-12" align="center">
@@ -58,7 +58,11 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                Puno es una ciudad del sur de Perú ubicada junto al lago Titicaca, uno de los lagos más grandes de Sudamérica y el cuerpo de agua navegable más alto del mundo. La ciudad es un núcleo comercial regional y también se considera la "capital folclórica" de Perú, por sus festivales tradicionales con animados espectáculos de música y danza. Los sitios icónicos incluyen la Catedral de Puno, una construcción andina de estilo barroco, y el barco a vapor Yavarí del siglo XIX.
+                                El Bosque de piedras de Huayllay está ubicado en el distrito de Huayllay, 
+                                provincia y departamento de Pasco, Perú tiene un extensión de 6000 ha​.
+                                 Está protegido desde 1974 por el establecimiento del Santuario nacional 
+                                 de Huayllay. Constituye una maravilla natural andina, a 4,310 metros sobre 
+                                 el nivel del mar.
                                 </td>
                                 <br />
                                 <br />
@@ -69,24 +73,24 @@ class Cajamarca extends Component {
                         </tbody>
                         <thead class="table-success">
                             <tr>
-                                <th scope="col">Lugares Concurrentes</th>
+                                <th scope="col">Figuras</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
-                                    <li>Isla con ruinas incas en un lago</li>
-                                    <li>Isla Suasi</li>
-                                    <li>Estrecho de Tiquina</li>
-                                    <li>Lago de Huinaymarca</li>
+                                <li>El caracol</li>
+                                <li>Puente</li>
+                                <li>Llama</li>
+                                <li>Elefante</li>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                
+
                 <div class="comments-container">
-                <h4 >Comentarios</h4>
+                    <h4 >Comentarios</h4>
                     <ul id="comments-list" class="comments-list">
                         <li>
                             <div class="comment-main-level">
@@ -139,8 +143,11 @@ class Cajamarca extends Component {
                         </li>
                     </ul>
                 </div>
+
+
             </React.Fragment>
         );
     }
 }
-export default (Cajamarca);
+
+export default (Bosque_Piedra);

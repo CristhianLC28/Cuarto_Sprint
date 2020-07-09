@@ -32,8 +32,11 @@ class Cajamarca extends Component {
                             justify="flex-end"
                             alignItems="center"
                         >
+                            <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
+                Lugares Turisticos
+                    </Button>
                             <Button color="textPrimary" variant="outlined" href="/Lugares_Populares" style={{ left: -10 }} >
-                                Lugares + Populares
+                            Departamentos
                     </Button>
                         </Grid>
                         <Boton />
@@ -55,11 +58,7 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                Huacachina es un oasis desértico y una pequeña villa justo al oeste de la ciudad de Ica,
-                                en el suroeste de Perú. En su centro están las aguas verdes de la laguna de Huacachina,
-                                la cual se cree que tiene propiedades terapéuticas y está rodeada de palmas.
-                                Las orillas de la laguna tienen bares y clubes.
-                                Los buggies recorren las altas dunas onduladas que rodean la villa.
+                                Ica es una ciudad del centro sur del Perú, capital del departamento de Ica, situada en el estrecho valle que forma el río Ica, entre el Gran Tablazo de Ica y las laderas occidentales de la Cordillera de los Andes
                                 </td>
                                 <br />
                                 <br />
@@ -76,10 +75,10 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                    <li>Full Day Paracas</li>
-                                    <li>Oasis de la Huacachina</li>
-                                    <li>Dunas de la Huacachina</li>
-                                    <li>Desierto de Ica</li>
+                                    <li>Viñedo de Tacama</li>
+                                    <li>Huacachina</li>
+                                    <li>El Catador</li>
+                                    <li>Museo Regional de Ica "Adolfo Bermúdez"</li>
                                 </td>
                             </tr>
                         </tbody>

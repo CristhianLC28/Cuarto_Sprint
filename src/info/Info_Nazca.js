@@ -32,8 +32,11 @@ class Cajamarca extends Component {
                             justify="flex-end"
                             alignItems="center"
                         >
+                            <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
+                Lugares Turisticos
+                    </Button>
                             <Button color="textPrimary" variant="outlined" href="/Lugares_Populares" style={{ left: -10 }} >
-                                Lugares + Populares
+                            Departamentos
                     </Button>
                         </Grid>
                         <Boton />
@@ -55,12 +58,7 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                Las Líneas de Nazca, en el sur de Perú,
-                                 son un grupo de geoglifos precolombinos que se extienden en las arenas del desierto.
-                                 Abarcan un área de casi 1,000 kilómetros cuadrados y hay alrededor de 300 figuras distintas,
-                                 que incluyen animales y plantas. Están compuestos por más de 10,000 líneas,
-                                 algunas de estas de 30 metros de ancho y más de 9 kilómetros de largo.
-                                 Es más fácil ver las figuras desde el aire o desde montañas cercanas
+                                Arequipa es uno de los veinticuatro departamentos y con 1 382 730 habitantes en 2017 es el cuarto más poblado —por detrás de Lima, Piura y La Libertad, que, junto a la Provincia Constitucional del Callao, forman la República del Perú. Su capital y ciudad más poblada es Arequipa
                                 </td>
                                 <br />
                                 <br />
@@ -71,16 +69,16 @@ class Cajamarca extends Component {
                         </tbody>
                         <thead class="table-success">
                             <tr>
-                                <th scope="col">Figuras Visitadas</th>
+                                <th scope="col">Lugares Concurrentes</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
-                                    <li>Hombre-Búho</li>
-                                    <li>Pájaro</li>
-                                    <li>Araña</li>
-                                    <li>Mono</li>
+                                    <li>Yanahuara</li>
+                                    <li>Chivay</li>
+                                    <li>Cañón del Colca</li>
+                                    <li>Monasterio de Santa Catalina</li>
                                 </td>
                             </tr>
                         </tbody>

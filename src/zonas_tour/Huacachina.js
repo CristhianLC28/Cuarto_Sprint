@@ -7,7 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import logo from '../logo1.jpg';
-import img8 from '../imagenes/img8.jpg';
+import img13 from '../imagenes/img13.jpg';
 import us1 from '../imagenes/user1.jpg';
 import us2 from '../imagenes/user2.jpg';
 import us3 from '../imagenes/user3.jpg';
@@ -18,7 +18,7 @@ import "../comentarios_es/style.css";
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ReplyIcon from '@material-ui/icons/Reply';
 
-class Cajamarca extends Component {
+class Huacachina extends Component {
     render() {
         return (
             <React.Fragment>
@@ -33,10 +33,10 @@ class Cajamarca extends Component {
                             alignItems="center"
                         >
                             <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
-                Lugares Turisticos
+                                Lugares Turisticos
                     </Button>
                             <Button color="textPrimary" variant="outlined" href="/Lugares_Populares" style={{ left: -10 }} >
-                            Departamentos
+                                Departamentos
                     </Button>
                         </Grid>
                         <Boton />
@@ -44,7 +44,7 @@ class Cajamarca extends Component {
                 </AppBar>
 
                 <div class="card" style={{ margin: 10 }}>
-                    <img src={img8} class="card-img" alt="logo" height="350" />
+                    <img src={img13} class="card-img" alt="logo" height="350" />
                 </div>
 
                 <div class="table col-sm-12" align="center">
@@ -58,7 +58,15 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                Puno es una ciudad del sur de Perú ubicada junto al lago Titicaca, uno de los lagos más grandes de Sudamérica y el cuerpo de agua navegable más alto del mundo. La ciudad es un núcleo comercial regional y también se considera la "capital folclórica" de Perú, por sus festivales tradicionales con animados espectáculos de música y danza. Los sitios icónicos incluyen la Catedral de Puno, una construcción andina de estilo barroco, y el barco a vapor Yavarí del siglo XIX.
+                                    La laguna de Huacachina es un oasis ubicado a cinco kilómetros al
+                                    oeste de la ciudad peruana de Ica, en medio del desierto costero
+                                    del Océano Pacífico. De aguas color verde, surgió debido al afloramiento de
+                                    corrientes subterráneas y alrededor de ella hay una abundante vegetación
+                                    compuesta de palmeras, eucaliptos (especies introducidas)
+                                    y la especie de algarrobo conocida como huarango,
+                                    la que sirve para el descanso de las aves voladoras que pasan por esta región.
+                                    Todo ello contribuye a hacer de Huacachina uno de los lugares más vistosos y
+                                    bellos de la costa peruana.
                                 </td>
                                 <br />
                                 <br />
@@ -69,24 +77,34 @@ class Cajamarca extends Component {
                         </tbody>
                         <thead class="table-success">
                             <tr>
-                                <th scope="col">Lugares Concurrentes</th>
+                                <th scope="col">Leyenda de Huacachina</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>
-                                    <li>Isla con ruinas incas en un lago</li>
-                                    <li>Isla Suasi</li>
-                                    <li>Estrecho de Tiquina</li>
-                                    <li>Lago de Huinaymarca</li>
+                                    Cuenta la leyenda que hubo una vez una hermosa doncella llamada Huacca China.
+                                    Era una bella mujer que era pretendida por los hombres de la ciudad pero que
+                                    ella no correspondía. Ella solía bañarse en un sitio alejado junto a un árbol,
+                                    era un lugar que nadie conocía. Hasta que un día, al bañarse,
+                                    pudo ver en su espejo a un foráneo que la observaba y decidió acercarse.
+                                    Asustada, la doncella comenzó a correr hasta que su vestimenta se quedó
+                                    enredada en un árbol y se convirtió en dunas; ella seguía corriendo hasta
+                                    que volvió a tropezar y su espejo se quebró en pedazos convirtiéndose en
+                                    laguna donde ella se sumergió y se quedó transformada en sirena. Todas
+                                    las noches sale a llorar su mala fortuna y cuenta la leyenda que en
+                                    represalia, salía en las noches a sorprender a los extranjeros,
+                                    encandilarnos y ahogarlo en el fondo de la laguna. En la actualidad,
+                                    varios extranjeros han fallecido cobrando fuerza la leyenda de la sirena.
+                                    Huacca China significa: la mujer que llora.
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                
+
                 <div class="comments-container">
-                <h4 >Comentarios</h4>
+                    <h4 >Comentarios</h4>
                     <ul id="comments-list" class="comments-list">
                         <li>
                             <div class="comment-main-level">
@@ -139,8 +157,11 @@ class Cajamarca extends Component {
                         </li>
                     </ul>
                 </div>
+
+
             </React.Fragment>
         );
     }
 }
-export default (Cajamarca);
+
+export default (Huacachina);
