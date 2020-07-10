@@ -36,10 +36,10 @@ export default function Tags() {
 }
 
 const Lugares = [
-  { title: 'Lima' },
-  { title: 'Puno' },
-  { title: 'Cuzco' },
-  { title: 'Cajamarca' },
-  { title: 'Arequipa' },
-  { title: 'Ica' },  
+  { title: 'Vinicunca' },
+  { title: 'Huacachina' },
+  { title: 'Velo de la Novia' },
+  { title: 'Machu Picchu' },
+  { title: 'Líneas de Nazca' },
+  { title: 'Bosque de Piedra de Huayllay' },  
 ];

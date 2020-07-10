@@ -7,16 +7,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import logo from '../logo1.jpg';
-import img1 from '../imagenes/img1.jpg';
-import us1 from '../imagenes/user1.jpg';
-import us2 from '../imagenes/user2.jpg';
+import img7 from '../imagenes/img7.jpg';
 import us3 from '../imagenes/user3.jpg';
 import Boton from '../settings/Btn_Menu';
 import Start from '../settings/Starts';
-
-import "../comentarios_es/style.css";
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ReplyIcon from '@material-ui/icons/Reply';
+import Avatar from '@material-ui/core/Avatar';
 
 class Cajamarca extends Component {
     render() {
@@ -44,7 +39,7 @@ class Cajamarca extends Component {
                 </AppBar>
 
                 <div class="card" style={{ margin: 10 }}>
-                    <img src={img1} class="card-img" alt="logo" height="350" />
+                    <img src={img7} class="card-img" alt="logo" height="350" />
                 </div>
 
                 <div class="table col-sm-12" align="center">
@@ -58,10 +53,10 @@ class Cajamarca extends Component {
                         <tbody>
                             <tr>
                                 <td>
-                                Antiguamente fue capital del Imperio inca y una de las ciudades más importantes del Virreinato del Perú.
-                                Durante la época colonial, bajo la soberanía de la corona española,
-                                se construyeron diversas iglesias, palacios y plazas barrocas y neoclásicas.
-                                Estas construcciones son los atractivos que hacen que la ciudad sea el principal destino turístico del país.
+                                Cuzco es una ciudad de los Andes peruanos que fue la capital del 
+                                Imperio Inca y es conocida por sus restos arqueológicos y la arquitectura
+                                 colonial española. La Plaza de Armas es el centro de la ciudad antigua,
+                                  con galerías, balcones de madera tallada y ruinas de murallas incas. 
                                 </td>
                                 <br />
                                 <br />
@@ -88,59 +83,14 @@ class Cajamarca extends Component {
                     </table>
                 </div>
                 
-                <div class="comments-container">
-                <h4 >Comentarios</h4>
-                    <ul id="comments-list" class="comments-list">
-                        <li>
-                            <div class="comment-main-level">
-                                <div class="comment-avatar"><img src={us1} /></div>
-                                <div class="comment-box">
-                                    <div class="comment-head">
-                                        <h6 class="comment-name">Luis Castañeda</h6>
-                                        <span>hace 20 minutos</span>
-                                        <i><ReplyIcon /></i>
-                                        <i><FavoriteIcon /></i>
-                                    </div>
-                                    <div class="comment-content">
-                                        Un Lugar espectacular.
-						            </div>
-                                </div>
-                            </div>
-                            <ul class="comments-list reply-list">
-                                <li>
-                                    <div class="comment-avatar"><img src={us3} /></div>
-                                    <div class="comment-box">
-                                        <div class="comment-head">
-                                            <h6 class="comment-name">Lorena Rojas</h6>
-                                            <span>hace 10 minutos</span>
-                                            <i><ReplyIcon /></i>
-                                            <i><FavoriteIcon /></i>
-                                        </div>
-                                        <div class="comment-content">
-                                            Concuerdo con tu respuesta amigo.Ademas,tiene buenos restaurantes alrededor de la plaza principal.
-                                            </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li>
-                            <div class="comment-main-level"></div>
-                            <div class="comment-avatar"><img src={us2} /></div>
-                            <div class="comment-box">
-                                <div class="comment-head">
-                                    <h6 class="comment-name">Marco Lara</h6>
-                                    <span>hace 50 minutos</span>
-                                    <i><ReplyIcon /></i>
-                                    <i><FavoriteIcon /></i>
-                                </div>
-                                <div class="comment-content">
-                                    Hermoso lugar desearia volver a viajar ahí.
-                                    </div>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="container " style={{ margin: 10 }}>
+                    <h4>Comentarios</h4>
+                    <tr>
+                        
+                    <td ><Avatar alt="Remy Sharp" src={us3} style={{ margin: 5 }}/></td>
+                    <textarea name="comentarios" cols="150" />
+                    <input class="btn btn-outline-primary btn-sm" type="submit" value="Enviar"/>
+                    </tr>
                 </div>
             </React.Fragment>
         );

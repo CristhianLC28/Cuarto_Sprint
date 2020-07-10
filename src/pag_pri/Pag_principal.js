@@ -27,7 +27,7 @@ class PagPri extends Component {
               container
               direction="row"
               justify="flex-end"
-              alignItems="center"               
+              alignItems="center"
             >
               <Button color="textPrimary" variant="outlined" href="/Turistico" style={{ left: -20 }} >
                 Lugares Turisticos
@@ -53,11 +53,16 @@ class PagPri extends Component {
             <div >
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" class="btn btn-outline-success" href="/Info_Cuzco">
+                  <Button variant="contained" class="btn btn-outline-success" href="/Machu_Picchu">
                     Conoce más acerca de Machu Picchu
                   </Button>
+
                 </Grid>
-                
+                <Grid item>
+                  <Button variant="contained" class="btn btn-outline-success" href="/Info_Cuzco" >
+                    Conozca La Capital
+                  </Button>
+                </Grid>
               </Grid>
             </div>
           </Container>
@@ -97,7 +102,7 @@ class PagPri extends Component {
                   <Grid container spacing={1} justify="center">
                     <Grid item>
                       <Button class="btn btn-outline-success" href="/Info_Lima">
-                        Conozca La Capital 
+                        Conozca La Capital
                   </Button>
                     </Grid>
                   </Grid>

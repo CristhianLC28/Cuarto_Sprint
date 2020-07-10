@@ -17,7 +17,7 @@ import img17 from '../imagenes/img17.jpg';
 
 import Boton from '../settings/Btn_Menu';
 import Start from '../settings/Starts';
-import Barra from '../settings/Barra_Nav';
+import BarraT from '../settings/Barra_NavT';
 
 class Turistico extends Component {
   render() {
@@ -47,7 +47,7 @@ class Turistico extends Component {
         <div class="card" style={{ margin: 10 }}>
           <img src={img11} class="card-img" alt="logo" height="350"  />
           <div class="card-img-overlay">
-          <div align="center" ><Barra /></div>
+          <div align="center" ><BarraT /></div>
           </div>
         </div>
 
